@@ -1,0 +1,197 @@
+---
+title: Keamanan
+description: Informasi mengenai praktik keamanan data, enkripsi dan perlindungan, serta strategi backup dan disaster recovery yang kami terapkan
+---
+
+# Keamanan
+
+Keamanan adalah fondasi dari semua layanan yang kami berikan. Kami menerapkan pendekatan keamanan berlapis yang komprehensif untuk melindungi data dan sistem Anda dari ancaman, baik eksternal maupun internal. Dokumen ini menjelaskan praktik keamanan yang kami terapkan untuk memastikan keamanan maksimal bagi bisnis Anda.
+
+## Praktik Keamanan Data
+
+Kami mengimplementasikan serangkaian praktik keamanan data untuk memastikan perlindungan optimal.
+
+### Keamanan Fisik
+
+Infrastruktur kami dilindungi oleh beberapa lapisan keamanan fisik:
+
+- **Pusat Data Bersertifikasi** - Semua server kami berada di pusat data Tier III atau Tier IV yang memenuhi standar ISO 27001
+- **Akses Terbatas** - Sistem biometrik dan kartu akses berlapis untuk membatasi akses fisik
+- **Pengawasan 24/7** - CCTV dan personel keamanan memonitor fasilitas sepanjang waktu
+- **Kontrol Lingkungan** - Sistem pencegahan kebakaran, pengendalian suhu, dan catu daya redundan
+
+### Keamanan Jaringan
+
+Arsitektur jaringan kami dirancang dengan keamanan sebagai prioritas utama:
+
+- **Arsitektur Berlapis** - Jaringan tersegmentasi dengan zona keamanan yang berbeda
+- **Firewalls Canggih** - Next-generation firewalls dengan inspeksi paket mendalam
+- **Pencegahan Intrusi** - Sistem deteksi dan pencegahan intrusi (IDS/IPS) aktif 24/7
+- **Anti-DDoS** - Perlindungan terhadap serangan Distributed Denial of Service
+- **Pemantauan Berkelanjutan** - Analisis log dan traffic jaringan secara real-time
+
+### Keamanan Aplikasi
+
+Semua aplikasi dan layanan yang kami kembangkan mengikuti prinsip security-by-design:
+
+- **SDLC Aman** - Keamanan terintegrasi di setiap fase pengembangan software
+- **Pengujian Keamanan** - Penetration testing dan code review secara berkala
+- **Validasi Input** - Perlindungan terhadap serangan injeksi dan XSS
+- **API Security** - Autentikasi kuat dan pembatasan rate untuk semua API
+- **Dependency Management** - Pemantauan dan update komponen pihak ketiga
+
+### Keamanan Operasional
+
+Praktik operasional kami dirancang untuk meminimalkan risiko keamanan:
+
+- **Principle of Least Privilege** - Staf hanya memiliki akses minimum yang diperlukan
+- **Segregation of Duties** - Pemisahan tanggung jawab untuk mencegah penyalahgunaan
+- **Change Management** - Proses formal untuk semua perubahan pada sistem produksi
+- **Vulnerability Management** - Scanning kerentanan rutin dan patch management
+- **Security Awareness** - Pelatihan keamanan wajib dan berkelanjutan untuk semua staf
+
+## Enkripsi dan Perlindungan
+
+Enkripsi adalah komponen kunci dalam strategi keamanan kami, melindungi data dalam berbagai kondisi.
+
+### Enkripsi Data Diam (At Rest)
+
+Data yang disimpan dalam sistem kami dilindungi dengan:
+
+- **Enkripsi Disk** - Enkripsi level disk penuh (AES-256) untuk semua storage
+- **Database Encryption** - Enkripsi column-level untuk data sensitif
+- **Key Management** - Sistem pengelolaan kunci enkripsi dengan rotasi reguler
+- **Secure Storage** - Hardware Security Modules (HSM) untuk penyimpanan kunci master
+
+### Enkripsi Data Bergerak (In Transit)
+
+Data yang ditransmisikan melalui jaringan dilindungi dengan:
+
+- **TLS/SSL** - TLS 1.3 atau lebih tinggi untuk semua komunikasi eksternal
+- **Perfect Forward Secrecy** - Untuk mencegah decryption retroaktif
+- **Certificate Management** - Pemantauan dan pembaruan otomatis sertifikat
+- **Strong Cipher Suites** - Hanya cipher suite yang aman yang diaktifkan
+
+### Tokenisasi
+
+Untuk data sensitif tertentu, kami menerapkan tokenisasi sebagai lapisan perlindungan tambahan:
+
+- **PCI Tokenization** - Untuk data pembayaran dan finansial
+- **Sensitive Data Tokenization** - Untuk identifikasi personal dan data rahasia
+- **Token Vaults** - Penyimpanan token yang aman dengan kontrol akses ketat
+
+### Perlindungan Endpoint
+
+Perangkat dan endpoint dilindungi dengan:
+
+- **Endpoint Protection Platform** - Solusi keamanan endpoint terintegrasi
+- **Mobile Device Management** - Untuk perangkat mobile yang digunakan untuk akses
+- **Device Encryption** - Enkripsi wajib untuk semua perangkat perusahaan
+- **Application Control** - Pembatasan aplikasi yang dapat dijalankan
+
+## Backup dan Disaster Recovery
+
+Kami menerapkan strategi backup dan pemulihan komprehensif untuk memastikan kelangsungan bisnis dalam berbagai skenario.
+
+### Strategi Backup
+
+Pendekatan multi-tier untuk backup data:
+
+- **Backup Otomatis** - Jadwal backup otomatis dengan verifikasi integritas
+- **Backup Inkremental** - Backup inkremental setiap jam dengan minimal dampak performa
+- **Backup Penuh** - Backup penuh mingguan untuk pemulihan menyeluruh
+- **Backup Offsite** - Replikasi ke lokasi geografis terpisah untuk keamanan tambahan
+- **Backup Terenkripsi** - Semua data backup dilindungi dengan enkripsi AES-256
+
+### Pengujian Backup
+
+Backup diverifikasi secara reguler untuk memastikan keandalannya:
+
+- **Automated Verification** - Pengujian otomatis untuk memvalidasi integritas backup
+- **Test Restores** - Pengujian restorasi data secara berkala
+- **Synthetic Full Testing** - Validasi kemampuan untuk merekonstruksi backup penuh dari inkremental
+- **Audit Log** - Catatan komprehensif dari semua aktivitas backup dan restore
+
+### Disaster Recovery Planning
+
+Kami memiliki rencana pemulihan bencana komprehensif:
+
+- **Strategi RPO/RTO** - Recovery Point Objective dan Recovery Time Objective yang jelas
+- **Infrastructure Redundancy** - Komponen redundan untuk mencegah single points of failure
+- **Failover Otomatis** - Sistem failover otomatis untuk layanan kritis
+- **DR Run Books** - Prosedur terperinci untuk berbagai skenario bencana
+- **Annual DR Testing** - Pengujian penuh dari proses disaster recovery
+
+### Business Continuity
+
+Selain disaster recovery, kami memiliki perencanaan keberlanjutan bisnis yang luas:
+
+- **Continuity Planning** - Perencanaan untuk memastikan operasi berkelanjutan
+- **Alternative Sites** - Lokasi alternatif untuk operasi jika lokasi utama terganggu
+- **Communication Protocols** - Protokol komunikasi jelas selama situasi darurat
+- **Vendor Redundancy** - Multiple vendor untuk layanan kritis
+- **Regular Review** - Peninjauan dan pembaruan berkala BCP
+
+## Kepatuhan dan Sertifikasi
+
+Praktik keamanan kami selaras dengan standar dan sertifikasi industri terkemuka:
+
+- **ISO 27001** - Sertifikasi untuk sistem manajemen keamanan informasi
+- **OWASP Compliance** - Kepatuhan dengan OWASP Top 10 dan standar keamanan aplikasi
+- **PCI DSS** - Kepatuhan untuk pemrosesan data pembayaran
+- **SOC 2** - Kontrol yang memenuhi prinsip Trust Services
+- **SNI ISO 27001** - Sertifikasi standar keamanan informasi Indonesia
+
+## Response Keamanan
+
+Kami memiliki tim dan prosedur response insiden yang matang:
+
+### Security Operations Center (SOC)
+
+- **Monitoring 24/7** - Pemantauan keamanan berkelanjutan 
+- **Threat Intelligence** - Integrasi dengan feed intelijen ancaman terkini
+- **Behavior Analytics** - Deteksi anomali berbasis AI untuk identifikasi serangan
+- **Automated Response** - Respons otomatis untuk serangan umum
+
+### Incident Response Plan
+
+- **Dedicated CSIRT** - Tim respons insiden keamanan khusus
+- **Clear Procedures** - Protokol respons terstruktur untuk berbagai jenis insiden
+- **Forensic Capabilities** - Kemampuan analisis forensik untuk investigasi
+- **Komunikasi Transparan** - Protokol notifikasi jelas untuk klien terdampak
+
+### Vulnerability Management
+
+- **Regular Scanning** - Pemindaian kerentanan rutin pada semua sistem
+- **Risk-Based Patching** - Prioritas patching berdasarkan tingkat risiko
+- **Remediation Process** - Proses remediasi terstruktur dengan verifikasi
+- **Vendor Coordination** - Koordinasi dengan vendor untuk kerentanan pihak ketiga
+
+## Keamanan untuk Klien
+
+Kami memberdayakan klien dengan fitur keamanan tambahan:
+
+### Autentikasi
+
+- **Multi-Factor Authentication** - MFA tersedia untuk semua akses sistem
+- **Single Sign-On** - Integrasi dengan penyedia identitas perusahaan
+- **Strong Password Policies** - Kebijakan password yang mendorong kompleksitas dan rotasi
+- **Biometric Options** - Dukungan untuk autentikasi biometrik di aplikasi mobile
+
+### Kontrol Akses
+
+- **Role-Based Access** - Kontrol akses granular berdasarkan peran
+- **IP Restrictions** - Batasan akses berdasarkan rentang IP
+- **Session Management** - Timeout sesi dan pembatasan sesi konkuren
+- **Audit Log** - Logging komprehensif untuk semua aktivitas pengguna
+
+### Alat Keamanan
+
+- **Security Dashboards** - Dasbor yang memberikan visibilitas ke status keamanan
+- **Self-Service Security** - Kemampuan untuk mengonfigurasi keamanan sendiri
+- **Activity Monitoring** - Alat untuk memonitor aktivitas pengguna
+- **Security Alerts** - Notifikasi untuk aktivitas mencurigakan
+
+---
+
+Keamanan adalah proses berkelanjutan. Kami terus mengevaluasi, meningkatkan, dan memperkuat postur keamanan kami untuk melindungi aset digital Anda. Untuk informasi lebih lanjut atau pertanyaan spesifik tentang praktik keamanan kami, silakan [hubungi tim Keamanan](#) kami.
