@@ -78,18 +78,56 @@
         "tab": "Ketuju",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "Layanan Umum",
             "pages": [
-              "api-reference/introduction"
+              "ketuju/cara-kerja-dengan-kami",
+              "ketuju/pembayaran-dan-penagihan",
+              "ketuju/dukungan-pasca-proyek"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Pengembangan Website",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "ketuju/jenis-website",
+              "ketuju/teknologi-platform",
+              "ketuju/proses-pengembangan-website",
+              "ketuju/panduan-pengelolaan-website"
+            ]
+          },
+          {
+            "group": "Pengembangan Aplikasi Mobile",
+            "pages": [
+              "ketuju/jenis-aplikasi-mobile",
+              "ketuju/proses-pengembangan-aplikasi-mobile",
+              "ketuju/publikasi-aplikasi",
+              "ketuju/pemeliharaan-update-aplikasi"
+            ]
+          },
+          {
+            "group": "Desain & UI/UX",
+            "pages": [
+              "ketuju/jenis-layanan-desain",
+              "ketuju/proses-desain-ui-ux",
+              "ketuju/deliverables-desain",
+              "ketuju/revisi-umpan-balik"
+            ]
+          },
+          {
+            "group": "IT Support",
+            "pages": [
+              "ketuju/paket-it-support",
+              "ketuju/cara-mengajukan-tiket-support",
+              "ketuju/remote-support",
+              "ketuju/maintaince-rutin"
+            ]
+          },
+          {
+            "group": "Kebijakan & Keamanan",
+            "pages": [
+              "ketuju/kebijakan-privasi-data",
+              "ketuju/keamanan",
+              "ketuju/syarat-dan-ketentuan",
+              "ketuju/penghentian-layanan"
             ]
           }
         ]
