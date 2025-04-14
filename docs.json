@@ -136,18 +136,63 @@
         "tab": "Tempat Teduh",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "Pencarian dan Booking",
             "pages": [
-              "api-reference/introduction"
+              "tempat-teduh/cara-mencari-kos-dan-kontrakan",
+              "tempat-teduh/proses-booking-dan-reservasi",
+              "tempat-teduh/dokumen-yang-diperlukan",
+              "tempat-teduh/panduan-survei-tempat"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Pembayaran",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "tempat-teduh/metode-pembayaran",
+              "tempat-teduh/denda-dan-biaya-tambahan",
+              "tempat-teduh/deposit-dan-pengembalian-deposit",
+              "tempat-teduh/perpanjangan-kontrak-dan-kenaikan-harga"
+            ]
+          },
+          {
+            "group": "Fasilitas dan Layanan",
+            "pages": [
+              "tempat-teduh/fasilitas-umum",
+              "tempat-teduh/internet-dan-wifi",
+              "tempat-teduh/layanan-kebersihan",
+              "tempat-teduh/parkir-kendaraan"
+            ]
+          },
+          {
+            "group": "Pemeliharaan & Perbaikan",
+            "pages": [
+              "tempat-teduh/laporan-kerusakan",
+              "tempat-teduh/pemeliharaan-rutin",
+              "tempat-teduh/penggunaan-peralatan",
+              "tempat-teduh/renovasi-modifikasi"
+            ]
+          },
+          {
+            "group": "Check-in & Check-out",
+            "pages": [
+              "tempat-teduh/prosedur-checkin",
+              "tempat-teduh/prosedur-checkout",
+              "tempat-teduh/perpindahan-kamar"
+            ]
+          },
+          {
+            "group": "Komunitas & Lingkungan",
+            "pages": [
+              "tempat-teduh/aturan-etika",
+              "tempat-teduh/acara-komunitas",
+              "tempat-teduh/kebijakan-lingkungan",
+              "tempat-teduh/area-sekitar"
+            ]
+          },
+          {
+            "group": "Bantuan & Kontak",
+            "pages": [
+              "tempat-teduh/cara-menghubungi-pengelola",
+              "tempat-teduh/faq-umum"
             ]
           }
         ]
