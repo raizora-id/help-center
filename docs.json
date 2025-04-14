@@ -98,7 +98,7 @@
             "group": "Pengembangan Aplikasi Mobile",
             "pages": [
               "ketuju/jenis-aplikasi-mobile",
-              "ketuju/proses-pengembangan-aplikasi-mobile",
+              "ketuju/proses-pengembangan-aplikasi",
               "ketuju/publikasi-aplikasi",
               "ketuju/pemeliharaan-update-aplikasi"
             ]
@@ -118,7 +118,7 @@
               "ketuju/paket-it-support",
               "ketuju/cara-mengajukan-tiket-support",
               "ketuju/remote-support",
-              "ketuju/maintaince-rutin"
+              "ketuju/maintenance-rutin"
             ]
           },
           {
