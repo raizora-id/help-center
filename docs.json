@@ -38,18 +38,47 @@
         "tab": "Himajin",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "Belanja",
             "pages": [
-              "api-reference/introduction"
+              "himajin/cara-pesan-dan-bayar",
+              "himajin/pengiriman-dan-tracking",
+              "himajin/pengembalian-dan-refund",
+              "himajin/promo-dan-membership"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Layanan",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "himajin/layanan-aquarium-air-laut",
+              "himajin/layanan-aquarium-air-tawar",
+              "himajin/layanan-aquascape-professional",
+              "himajin/layanan-konsultasi-marine-dan-coral",
+              "himajin/layanan-pembuatan-kolam-koi",
+              "himajin/paket-workshop-aquatic",
+              "himajin/layanan-emergency-akuarium"
+            ]
+          },
+          {
+            "group": "Kontak",
+            "pages": [
+              "himajin/customer-service",
+              "himajin/lokasi-toko-dan-jam-operasional",
+              "himajin/pertanyaan-umum"
+            ]
+          },
+          {
+            "group": "Produk",
+            "pages": [
+              "himajin/produk-aquarium-dan-peralatan",
+              "himajin/produk-perlengkapan-hewan"
+            ]
+          },
+          {
+            "group": "Reptil",
+            "pages": [
+              "himajin/contributing-guidelines",
+              "himajin/code-of-conduct",
+              "himajin/contributors"
             ]
           }
         ]
