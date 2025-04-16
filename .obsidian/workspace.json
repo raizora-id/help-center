@@ -161,6 +161,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "225c18f158d469bc",
-  "lastOpenFiles": []
+  "active": "046826c7873065a6",
+  "lastOpenFiles": [
+    "raizora/faq-layanan-pelanggan.mdx",
+    "raizora/faq-umum.mdx",
+    "raizora/visi-dan-misi.mdx",
+    "raizora/tentang-kami.mdx",
+    "raizora/sejarah.mdx",
+    "raizora/jam-operasional.mdx",
+    "raizora/informasi-kontak.mdx",
+    "raizora/ekosistem-bisnis.mdx",
+    "raizora/detail-lini-bisnis.mdx",
+    "api-reference/endpoint/webhook.mdx",
+    "api-reference/endpoint/get.mdx"
+  ]
 }
