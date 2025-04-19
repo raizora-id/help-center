@@ -14,22 +14,41 @@
         "tab": "Raizora",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Perkenalan",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              "raizora/tentang-kami",
+              "raizora/visi-dan-misi",
+              "raizora/sejarah"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Lini Bisnis",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "raizora/ekosistem-bisnis",
+              "raizora/detail-lini-bisnis"
+            ]
+          },
+          {
+            "group": "FAQ & Kontak",
+            "pages": [
+              "raizora/informasi-kontak",
+              "raizora/jam-operasional",
+              "raizora/faq-umum",
+              "raizora/faq-layanan-pelanggan"
+            ]
+          },
+          {
+            "group": "Karir",
+            "pages": [
+              "raizora/budaya-perusahaan",
+              "raizora/peluang-karir"
+            ]
+          },
+          {
+            "group": "Kebijakan Perusahaan",
+            "pages": [
+              "raizora/kebijakan-privasi",
+              "raizora/syarat-dan-ketentuan"
             ]
           }
         ]
@@ -253,16 +272,16 @@
         {
           "anchor": "Website",
           "href": "https://raizora.com",
-          "icon": "web"
+          "icon": "website"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
+          "anchor": "Komunitas",
+          "href": "https://community.raizora.com",
           "icon": "discord"
         },
         {
-          "anchor": "Press",
-          "href": "https://mintlify.com/blog",
+          "anchor": "Publikasi",
+          "href": "https://news.raizora.com",
           "icon": "newspaper"
         }
       ]
@@ -274,14 +293,10 @@
   },
   "navbar": {
     "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
+      "label": "Support",
       "href": "https://dashboard.mintlify.com"
     }
   },
