@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Raizora Help Center",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#0070f3",
+    "light": "#0070f3",
+    "dark": "#0070f3"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -272,7 +272,7 @@
         {
           "anchor": "Website",
           "href": "https://raizora.com",
-          "icon": "website"
+          "icon": "globe"
         },
         {
           "anchor": "Komunitas",
